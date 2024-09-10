@@ -15,7 +15,7 @@ F:/unity project/3D RPG
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-3150
+4719
 Successfully changed project path to: F:/unity project/3D RPG
 F:/unity project/3D RPG
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ F:/unity project/3D RPG
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16336] Host "[IP] 192.168.22.14 [Port] 0 [Flags] 2 [Guid] 1729570106 [EditorId] 1729570106 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AT341FA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [24500] Host "[IP] 192.168.22.14 [Port] 0 [Flags] 2 [Guid] 3344404152 [EditorId] 3344404152 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AT341FA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16336] Host "[IP] 192.168.22.14 [Port] 0 [Flags] 2 [Guid] 1729570106 [EditorId] 1729570106 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AT341FA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24500] Host "[IP] 192.168.22.14 [Port] 0 [Flags] 2 [Guid] 3344404152 [EditorId] 3344404152 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AT341FA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 9.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.28f1 (6bae5ce6b222)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/Resources/UnitySubsystems
@@ -70,51 +70,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.009078 seconds.
-- Loaded All Assemblies, in  0.374 seconds
+Registered in 0.009808 seconds.
+- Loaded All Assemblies, in  0.380 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 190 ms
+Android Extension - Scanning For ADB Devices 234 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.540 seconds
-Domain Reload Profiling: 913ms
-	BeginReloadAssembly (106ms)
+- Finished resetting the current domain, in  0.589 seconds
+Domain Reload Profiling: 968ms
+	BeginReloadAssembly (107ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (35ms)
+	RebuildCommonClasses (38ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (160ms)
-		LoadAssemblies (105ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (161ms)
+		LoadAssemblies (106ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (157ms)
-			TypeCache.Refresh (156ms)
-				TypeCache.ScanAssembly (141ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (157ms)
+				TypeCache.ScanAssembly (143ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (540ms)
+	FinalizeReload (590ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (485ms)
+		SetupLoadedEditorAssemblies (528ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (306ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (342ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (124ms)
-			ProcessInitializeOnLoadMethodAttributes (48ms)
+			ProcessInitializeOnLoadAttributes (133ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -123,8 +123,8 @@ Domain Reload Profiling: 913ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.712 seconds
-Refreshing native plugins compatible for Editor in 7.08 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.728 seconds
+Refreshing native plugins compatible for Editor in 6.41 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
@@ -134,47 +134,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.829 seconds
-Domain Reload Profiling: 1540ms
-	BeginReloadAssembly (144ms)
+- Finished resetting the current domain, in  0.933 seconds
+Domain Reload Profiling: 2367ms
+	BeginReloadAssembly (157ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (36ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (37ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (477ms)
-		LoadAssemblies (325ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (1189ms)
+		LoadAssemblies (320ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (233ms)
-			TypeCache.Refresh (193ms)
-				TypeCache.ScanAssembly (172ms)
-			ScanForSourceGeneratedMonoScriptInfo (29ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (830ms)
+		AnalyzeDomain (252ms)
+			TypeCache.Refresh (211ms)
+				TypeCache.ScanAssembly (189ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (934ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (665ms)
+		SetupLoadedEditorAssemblies (736ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (25ms)
+			InitializePlatformSupportModulesInManaged (32ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (384ms)
-			ProcessInitializeOnLoadMethodAttributes (177ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (431ms)
+			ProcessInitializeOnLoadMethodAttributes (180ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 8.19 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 8.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4455 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 97 unused Assets / (1.3 MB). Loaded Objects now: 4907.
 Memory consumption went from 179.9 MB to 178.6 MB.
-Total: 8.168200 ms (FindLiveObjects: 0.339600 ms CreateObjectMapping: 0.356000 ms MarkObjects: 7.109500 ms  DeleteObjects: 0.362000 ms)
+Total: 7.168400 ms (FindLiveObjects: 0.342100 ms CreateObjectMapping: 0.352400 ms MarkObjects: 6.100700 ms  DeleteObjects: 0.371600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -191,137 +191,25 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 18164.956863 seconds.
-  path: Assets/Game/Enviroments/Texture/Mud/Mud/1/1_diffuseOriginal.bmp
-  artifactKey: Guid(5f22731f7ad8435498c3d7d3102c0fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Enviroments/Texture/Mud/Mud/1/1_diffuseOriginal.bmp using Guid(5f22731f7ad8435498c3d7d3102c0fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9e6abfd3e5ba187d90bafe7b1895e7') in 0.082931 seconds
+  Time since last request: 25742.866758 seconds.
+  path: Assets/Game/Enviroments/Cobble Stone/Cobble Stone/1/1.png
+  artifactKey: Guid(2deb5aadec831574e90e811457124392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Enviroments/Cobble Stone/Cobble Stone/1/1.png using Guid(2deb5aadec831574e90e811457124392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34af475fd4f64a29aa77a7597797095c') in 0.059835 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Game/Enviroments/Texture/Grass/Grass/1/1_diffuseOriginal.png
-  artifactKey: Guid(2ed3000732fe68c499660cbb2646fb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Enviroments/Texture/Grass/Grass/1/1_diffuseOriginal.png using Guid(2ed3000732fe68c499660cbb2646fb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97b1631bf881ebd1cf7427d0d0a5c9c') in 0.018204 seconds
+  Time since last request: 1.879910 seconds.
+  path: Assets/Game/Enviroments/Cobble Stone/Cobble Stone/1/1_normal.bmp
+  artifactKey: Guid(a82df13876389814e97af5101190b5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Enviroments/Cobble Stone/Cobble Stone/1/1_normal.bmp using Guid(a82df13876389814e97af5101190b5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2ec84c0359f80e3c7ec9cd939d8520') in 0.011747 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 32.748044 seconds.
-  path: Assets/Scenes/Terrain/NewLayer 5.terrainlayer
-  artifactKey: Guid(a1f8f1903282e204ab0086ad90365973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Terrain/NewLayer 5.terrainlayer using Guid(a1f8f1903282e204ab0086ad90365973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66cd2579d872363bd50061d69cb2e69d') in 0.014821 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 11.868527 seconds.
-  path: Assets/Game/Enviroments/Texture/Mud/Mud/1/1.png
-  artifactKey: Guid(76b5a9d49f9febf4984c780c2c4e9e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Enviroments/Texture/Mud/Mud/1/1.png using Guid(76b5a9d49f9febf4984c780c2c4e9e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a696b260506be123fda2f48ec9f30f') in 0.010555 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2.682654 seconds.
-  path: Assets/Game/Enviroments/Texture/Mud/Mud/1
-  artifactKey: Guid(95e9737ccb4af5a4990d7c528b698001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Enviroments/Texture/Mud/Mud/1 using Guid(95e9737ccb4af5a4990d7c528b698001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68017c668ef8251436fc6f908ea690e') in 0.000434 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 17.640516 seconds.
-  path: Assets/Scenes/Terrain/NewLayer.terrainlayer
-  artifactKey: Guid(bc3caeeb5826b1044a2c7f693534c790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Terrain/NewLayer.terrainlayer using Guid(bc3caeeb5826b1044a2c7f693534c790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc8ca5beda8459aaad3ba59ee8a6b47') in 0.011947 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 10.063374 seconds.
-  path: Assets/Game/Enviroments/Texture/Grass
-  artifactKey: Guid(3df57cc875e482040a9a454963b1c8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Enviroments/Texture/Grass using Guid(3df57cc875e482040a9a454963b1c8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db0bcbd8a75e5ad2c8cde345b340418') in 0.000442 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 6.551670 seconds.
-  path: Assets/Game/Enviroments/Texture/Mud
-  artifactKey: Guid(cc50bfd6f430d2f4593e0ada30fad630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Enviroments/Texture/Mud using Guid(cc50bfd6f430d2f4593e0ada30fad630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c08b4c73bca78150a49b8e25388296b0') in 0.000394 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.462564 seconds.
-  path: Assets/Game/Enviroments/Texture/Mud/Mud
-  artifactKey: Guid(7ce09a24bbf3758479a199049d5415ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Enviroments/Texture/Mud/Mud using Guid(7ce09a24bbf3758479a199049d5415ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523e1ea0d326acbb85a071787cef2c52') in 0.000380 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 8.672347 seconds.
-  path: Assets/Game/Enviroments/Grass/Grass
-  artifactKey: Guid(4ccec2b9f5745324c9d5820c9f62bd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Enviroments/Grass/Grass using Guid(4ccec2b9f5745324c9d5820c9f62bd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f41827598b27d6c4d641436041772a') in 0.000369 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 10.583577 seconds.
-  path: Assets/Scenes/Terrain/NewLayer 1.terrainlayer
-  artifactKey: Guid(947071200f4a9c74a892bdf46b2ae152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Terrain/NewLayer 1.terrainlayer using Guid(947071200f4a9c74a892bdf46b2ae152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5924cbed4d1ae3e9708898fb2755fd') in 0.010982 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 13.652323 seconds.
-  path: Assets/Game/Enviroments/Texture/Wall_with_plants/Wall_with_plants
-  artifactKey: Guid(7db6569609580a441be28f1aa2ccb3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Enviroments/Texture/Wall_with_plants/Wall_with_plants using Guid(7db6569609580a441be28f1aa2ccb3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66cec72dec31619a3d78009523a24a3d') in 0.000481 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.564249 seconds.
-  path: Assets/Game/Enviroments/Texture/Wall_with_plants
-  artifactKey: Guid(c49cdc563c2918e4fa96d58b6c6b402f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Enviroments/Texture/Wall_with_plants using Guid(c49cdc563c2918e4fa96d58b6c6b402f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '773dfb93b5ea847d367264cc7008e0f2') in 0.000392 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 6.693516 seconds.
-  path: Assets/Scenes/Terrain/NewLayer 2.terrainlayer
-  artifactKey: Guid(9dc182a085263f745847a6fd05163913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Terrain/NewLayer 2.terrainlayer using Guid(9dc182a085263f745847a6fd05163913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01340358cd0ba8df6e31fc01392e4034') in 0.012092 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 12.515519 seconds.
-  path: Assets/Scenes/Terrain/NewLayer 3.terrainlayer
-  artifactKey: Guid(1f653ec6f5521c145ba6dfead0889c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Terrain/NewLayer 3.terrainlayer using Guid(1f653ec6f5521c145ba6dfead0889c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db17667f2dc3561359dbe92f1024d3a5') in 0.011480 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 6.130273 seconds.
-  path: Assets/Game/Enviroments/Texture/Cobble Stone
-  artifactKey: Guid(4f9f7374147f5054cbce4351530372b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Enviroments/Texture/Cobble Stone using Guid(4f9f7374147f5054cbce4351530372b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0351d89fd4e853b62cf5c9b2270dde6f') in 0.000445 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.473158 seconds.
-  path: Assets/Scenes/Terrain/NewLayer 4.terrainlayer
-  artifactKey: Guid(5e09848792194334f8fbd88e2dede0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Terrain/NewLayer 4.terrainlayer using Guid(5e09848792194334f8fbd88e2dede0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71e08af324a3420b1a6e09d65445d03') in 0.010795 seconds
+  Time since last request: 0.219724 seconds.
+  path: Assets/Game/Enviroments/Cobble Stone/Cobble Stone/1/1_smoothness.bmp
+  artifactKey: Guid(42fb264644e73fa48bf8448b5d179fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Enviroments/Cobble Stone/Cobble Stone/1/1_smoothness.bmp using Guid(42fb264644e73fa48bf8448b5d179fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34db604b16717dc8f1645e0ea092be5d') in 0.010678 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
