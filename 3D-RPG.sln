@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{11C5B75C-AAF9-8771-10B2-6ED0069E0A0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.AI.Navigation.Samples", "Unity.AI.Navigation.Samples.csproj", "{345EF3B4-63C9-6312-12A3-CB4C42558B4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.AI.Navigation.Samples.Initialization.Editor", "Unity.AI.Navigation.Samples.Initialization.Editor.csproj", "{6C7FB8CE-824E-8486-CA8F-B2215111F2CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11C5B75C-AAF9-8771-10B2-6ED0069E0A0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11C5B75C-AAF9-8771-10B2-6ED0069E0A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11C5B75C-AAF9-8771-10B2-6ED0069E0A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11C5B75C-AAF9-8771-10B2-6ED0069E0A0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{345EF3B4-63C9-6312-12A3-CB4C42558B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{345EF3B4-63C9-6312-12A3-CB4C42558B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{345EF3B4-63C9-6312-12A3-CB4C42558B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{345EF3B4-63C9-6312-12A3-CB4C42558B4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C7FB8CE-824E-8486-CA8F-B2215111F2CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C7FB8CE-824E-8486-CA8F-B2215111F2CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C7FB8CE-824E-8486-CA8F-B2215111F2CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C7FB8CE-824E-8486-CA8F-B2215111F2CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
