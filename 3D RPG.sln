@@ -57,6 +57,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.AI.Navigation.Editor"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualStudio.Editor", "Unity.VisualStudio.Editor.csproj", "{F288AFD0-7A89-6D37-1702-A5506BFE0842}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{A3BA5D3D-E207-F26A-9CF0-CC0D21B9ACF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IAPResolver", "IAPResolver.csproj", "{EF31665E-18F0-314D-9F27-A8506F3EC201}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TestTools.CodeCoverage.Editor.OpenCover.Model", "Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj", "{BE4521AE-E74F-AD33-3339-F2A59E7B8D65}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Rider.Editor", "Unity.Rider.Editor.csproj", "{B57497BD-5301-5F8B-B054-5E7903F31FA4}"
@@ -271,6 +275,14 @@ Global
 		{F288AFD0-7A89-6D37-1702-A5506BFE0842}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F288AFD0-7A89-6D37-1702-A5506BFE0842}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F288AFD0-7A89-6D37-1702-A5506BFE0842}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3BA5D3D-E207-F26A-9CF0-CC0D21B9ACF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3BA5D3D-E207-F26A-9CF0-CC0D21B9ACF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3BA5D3D-E207-F26A-9CF0-CC0D21B9ACF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3BA5D3D-E207-F26A-9CF0-CC0D21B9ACF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF31665E-18F0-314D-9F27-A8506F3EC201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF31665E-18F0-314D-9F27-A8506F3EC201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF31665E-18F0-314D-9F27-A8506F3EC201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF31665E-18F0-314D-9F27-A8506F3EC201}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BE4521AE-E74F-AD33-3339-F2A59E7B8D65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BE4521AE-E74F-AD33-3339-F2A59E7B8D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE4521AE-E74F-AD33-3339-F2A59E7B8D65}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -41,7 +41,7 @@ namespace RPG.Control
                     continue;
                 }
                 // 如果玩家按下了滑鼠左鍵
-                if (Input.GetMouseButtonDown(0))
+                if (Input.GetMouseButton(0))
                 {
                     // 獲取Fighter組件並攻擊該目標
                     GetComponent<Fighter>().Attack(target.gameObject);

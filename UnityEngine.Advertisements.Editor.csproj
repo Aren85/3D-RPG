@@ -64,22 +64,24 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.28f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\Source\SkAdNetworkRemoteSource.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\Parser\SkAdNetworkJsonParser.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\Parser\ISkAdNetworkParser.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\AssemblyInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\Parser\SkAdNetworkUrlParser.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\Parser\SkAdNetworkFileExtension.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\Source\ISkAdNetworkSource.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\Source\SkAdNetworkLocalSourceProvider.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\Parser\SkAdNetworkXmlParser.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\Source\SkAdNetworkLocalSource.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\XCodeSwiftSupportPostProcess.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\PostProcessBuildPlist.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\Parser\SkAdNetworkParser.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ads@4.12.0\Editor\Source\SkAdNetworkRemoteSource.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ads@4.12.0\Editor\Parser\SkAdNetworkJsonParser.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ads@4.12.0\Editor\Parser\ISkAdNetworkParser.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ads@4.12.0\Editor\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ads@4.12.0\Editor\Parser\SkAdNetworkUrlParser.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ads@4.12.0\Editor\Parser\SkAdNetworkFileExtension.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ads@4.12.0\Editor\Source\ISkAdNetworkSource.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ads@4.12.0\Editor\Source\SkAdNetworkLocalSourceProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ads@4.12.0\Editor\Parser\SkAdNetworkXmlParser.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ads@4.12.0\Editor\Source\SkAdNetworkLocalSource.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ads@4.12.0\Editor\XCodeSwiftSupportPostProcess.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ads@4.12.0\Editor\PostProcessBuildPlist.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ads@4.12.0\Editor\Parser\SkAdNetworkParser.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ads@4.12.0\Editor\Source\MobileDependencyResolverUnity.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\UnityEngine.Advertisements.Editor.asmdef" />
+    <None Include="Library\PackageCache\com.unity.ads@4.12.0\Editor\Source\Dependencies.xml" />
+    <None Include="Library\PackageCache\com.unity.ads@4.12.0\Editor\UnityEngine.Advertisements.Editor.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
